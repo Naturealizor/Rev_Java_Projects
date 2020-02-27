@@ -1,0 +1,14 @@
+package model;
+
+public class AwesomePerson extends Person {
+
+    public AwesomePerson() {
+        this.name = "Jake";
+        this.age = 21;
+        System.out.println("In AwesomePerson constructor...");
+    }
+
+    public talk() {
+        System.out.println("Hello my name is " + this.name + " and I'm " + this.age);
+    }
+}
